@@ -1,12 +1,9 @@
 # very-basic-apache-config
-### A reference for very basic level apache setup and management. 
-
+### A reference for very basic level apache setup and management on Ubuntu 16.04
 
 ##### RESTART APACHE
 
     sudo systemctl restart apache2
-
-
 
 ##### 1) You can find the apache password file here: 
 
