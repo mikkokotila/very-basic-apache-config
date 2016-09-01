@@ -1,18 +1,18 @@
 # very-basic-apache-config
-A reference for very basic level apache setup and management. 
+### A reference for very basic level apache setup and management. 
 
 
-RESTART APACHE
+##### RESTART APACHE
 
     sudo systemctl restart apache2
 
 
 
-1) You can find the apache password file here: 
+##### 1) You can find the apache password file here: 
 
     /etc/apache2/.htpasswd
 
-2) you can create new users like so: 
+##### 2) you can create new users like so: 
 
 starting a new file: 
 
@@ -26,7 +26,7 @@ with password read (b) from command line and using bcrypt (B)
 
     htpasswd -pB /usr/local/etc/apache/.htpasswd-users jsmith 4lk_fld-34gt-j4
 
-2) You can find the apache conf file here: 
+##### 2) You can find the apache conf file here: 
 
     /etc/apache2/sites-available
 
@@ -34,7 +34,7 @@ and the file itself in my case is called:
 
     000-default.conf
 
-3) to set authentication for one directory: 
+##### 3) to set authentication for one directory: 
 
         <Directory "/var/www/html/user1">
                 AuthType Basic
