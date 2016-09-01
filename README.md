@@ -39,3 +39,7 @@ and the file itself in my case is called:
                 AuthUserFile /etc/apache2/.htpasswd
                 Require user user1
         </Directory> 
+
+##### 4) Setting up https using Letsencrypt
+
+https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04
