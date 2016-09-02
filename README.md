@@ -4,6 +4,10 @@
 ##### RESTART APACHE
 
     sudo systemctl restart apache2
+    
+##### CHECK ERROR LOG
+
+    cat /var/log/apache2/error.log
 
 ##### 1) You can find the apache password file here: 
 
