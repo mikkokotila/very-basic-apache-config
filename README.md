@@ -59,3 +59,7 @@ http://askubuntu.com/questions/159007/how-do-i-run-specific-sudo-commands-withou
 ##### How to use bcrypt in php 
 
 http://stackoverflow.com/questions/4795385/how-do-you-use-bcrypt-for-hashing-passwords-in-php
+
+##### Changing hostname to fully qualified domain name
+
+    vim /etc/hostname
