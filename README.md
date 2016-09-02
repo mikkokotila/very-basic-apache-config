@@ -47,3 +47,8 @@ and the file itself in my case is called:
 ##### 4) Setting up https using Letsencrypt
 
 https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04
+
+##### 5) Setting permissions (in a way that allows PHP to execute things like mkdir) 
+
+    chown -R www-data:www-data /path/to/webserver/www && chmod -R g+rw /path/to/webserver/www
+
