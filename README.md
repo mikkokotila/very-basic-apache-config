@@ -55,3 +55,7 @@ https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s
 ##### 6) Using /etc/sudoers to manage permissions
 
 http://askubuntu.com/questions/159007/how-do-i-run-specific-sudo-commands-without-a-password
+
+##### How to use bcrypt in php 
+
+http://stackoverflow.com/questions/4795385/how-do-you-use-bcrypt-for-hashing-passwords-in-php
