@@ -52,3 +52,6 @@ https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s
 
     chown -R www-data:www-data /path/to/webserver/www && chmod -R g+rw /path/to/webserver/www
 
+##### 6) Using /etc/sudoers to manage permissions
+
+http://askubuntu.com/questions/159007/how-do-i-run-specific-sudo-commands-without-a-password
