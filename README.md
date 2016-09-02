@@ -1,6 +1,10 @@
 # very-basic-apache-config
 ### A reference for very basic level apache setup and management on Ubuntu 16.04
 
+##### BASIC ADD-ON PACKAGES
+
+    apt-get install -y parallel curl num-utils whois bc 
+
 ##### RESTART APACHE
 
     sudo systemctl restart apache2
