@@ -67,3 +67,9 @@ http://stackoverflow.com/questions/4795385/how-do-you-use-bcrypt-for-hashing-pas
 ##### Changing hostname to fully qualified domain name
 
     vim /etc/hostname
+    
+##### Stress testing Apache 
+
+NOTE: You'll need to run this command from another server or your own machine. The machine needs to have a good internet connection. 
+
+    for i in 2000 2050 2100 2150 2200 2250 2300 2350 2400 2450 2500 2550 2650 2700 2750 2800; do ab -kc $i -t 1 http://yourdomain.com/index.html; done
