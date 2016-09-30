@@ -1,6 +1,12 @@
 # very-basic-apache-config
 ### A reference for very basic level apache setup and management on Ubuntu 16.04
 
+##### IMPORTANT: BEFORE DOING ANYTHING ELSE 
+
+- create new user other than 'root'
+- change password for root 
+- add: alias rm='rm -i' to .bashrc or .bash_profile
+
 ##### BASIC ADD-ON PACKAGES
 
     apt-get install -y parallel curl num-utils whois bc 
